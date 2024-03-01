@@ -68,7 +68,7 @@ export class PizzaService {
       status: PizzaStatus.Pending,
     });
 
-    this.contractService
+    await this.contractService
       .deployPizzaContract(pizza)
       .then(async () => {
         try {
