@@ -69,8 +69,25 @@ The objectives of this challenge are:
 
 ## Candidate Notes
 
-1. 
+Objectives 1,2,3: Added unit test for ContractService, IngredientsService and OrdersService. Added integration test for PizzaService
 
 ## Candidate UI Testing Framework Recommendations
 
-1. 
+Playwright framework has been added to this project with an example stub for test.
+
+1. Playwright is well-suited for TypeScript projects, providing strong typing support.
+2. Playwright works well with most javascript frontend frameworks, allowing you to test html elements and interactions.
+3. Playwright can interact with MongoDB indirectly through the front-end UI, but it's not directly related to MongoDB itself.
+
+### Pros and Cons of Playwright:
+
+Pros:
+
+1. Supports TypeScript, providing type safety and better code quality.
+2. Offers a simple and expressive API for writing UI tests.
+3. Provides cross-browser testing capabilities, which is beneficial for a diverse user base.
+4. Good documentation and active community support.
+
+Cons:
+
+1. Requires some learning curve, especially for those new to UI testing or automation testing in general.
