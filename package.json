@@ -8,12 +8,14 @@
     "watch-test": "nodemon --exec 'npm run test' --watch src --ext ts",
     "ext": ".ts,.js",
     "ignore": "",
-    "pizza": "npx ts-node ./src/index.ts"
+    "pizza": "npx ts-node ./src/index.ts",
+    "e2e": "playwright test"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@playwright/test": "^1.42.0",
     "@types/jest": "^29.5.12",
     "@types/node": "^20.11.19",
     "jest": "^29.7.0",
